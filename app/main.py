@@ -6,6 +6,11 @@ app = FastAPI(title="Heart Disease Prediction API")
 
 model = load_model()
 
+# Root route
+@app.get("/")
+def read_root():
+    return {"message": "Heart Disease Prediction API is running!"}
+
 @app.get("/health")
 def health():
     return {"status": "ok"}
