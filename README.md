@@ -1,7 +1,7 @@
 # Heart Disease Prediction API
 
 ## Live Deployment
-Access the live API here: [Live API](https://heart-disease-fastapi.onrender.com/docs)
+Access the live API here: [Live API]([https://heart-disease-fastapi.onrender.com/docs](https://heart-disease-fastapi-4rl5.onrender.com/docs)
 
 ## Project Structure
 - app/: FastAPI app
